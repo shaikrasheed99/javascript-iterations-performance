@@ -47,3 +47,7 @@ console.timeEnd('Sort method time');
 console.time('Every method time');
 arrayWithMillionZeros.every(value => value == 0);
 console.timeEnd('Every method time');
+
+console.time('Some method time');
+arrayWithMillionZeros.some(() => {});
+console.timeEnd('Some method time');

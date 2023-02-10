@@ -39,3 +39,7 @@ console.timeEnd('Filter method time');
 console.time('Reduce method time');
 arrayWithMillionZeros.reduce(() => {});
 console.timeEnd('Reduce method time');
+
+console.time('Sort method time');
+arrayWithMillionZeros.sort(() => {});
+console.timeEnd('Sort method time');

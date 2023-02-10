@@ -51,3 +51,10 @@ console.timeEnd('Every method time');
 console.time('Some method time');
 arrayWithMillionZeros.some(() => {});
 console.timeEnd('Some method time');
+
+console.time('Chaining methods time');
+arrayWithMillionZeros.map(() => {})
+                     .filter(() => {})
+                     .sort(() => {})
+                     .forEach(() => {});
+console.timeEnd('Chaining methods time');

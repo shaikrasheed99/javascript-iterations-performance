@@ -31,3 +31,7 @@ console.timeEnd('For in loop time');
 console.time('Map method time');
 arrayWithMillionZeros.map(() => {});
 console.timeEnd('Map method time');
+
+console.time('Filter method time');
+arrayWithMillionZeros.filter(() => {});
+console.timeEnd('Filter method time');

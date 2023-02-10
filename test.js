@@ -9,3 +9,7 @@ const arrayWithMillionZeros = Array(millionTimes).fill(0);
 console.time('For of loop time: ');
 for (let value of arrayWithMillionZeros) {}
 console.timeEnd('For of loop time: ');
+
+console.time('For in loop time: ');
+for (let value in arrayWithMillionZeros) {}
+console.timeEnd('For in loop time: ');

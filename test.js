@@ -43,3 +43,7 @@ console.timeEnd('Reduce method time');
 console.time('Sort method time');
 arrayWithMillionZeros.sort(() => {});
 console.timeEnd('Sort method time');
+
+console.time('Every method time');
+arrayWithMillionZeros.every(() => {});
+console.timeEnd('Every method time');

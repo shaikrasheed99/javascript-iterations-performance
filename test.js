@@ -7,6 +7,13 @@ while (iterator < millionTimes) {
 }
 console.timeEnd('Traditional while loop time: ');
 
+console.time('Traditional do-while loop time: ');
+let index = 0;
+do {
+    index++;
+} while (index < millionTimes);
+console.timeEnd('Traditional do-while loop time: ');
+
 console.time('Traditional for loop time: ');
 for (let index = 0; index < millionTimes; index++) {}
 console.timeEnd('Traditional for loop time: ');

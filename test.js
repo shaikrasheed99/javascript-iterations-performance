@@ -45,5 +45,5 @@ arrayWithMillionZeros.sort(() => {});
 console.timeEnd('Sort method time');
 
 console.time('Every method time');
-arrayWithMillionZeros.every(() => {});
+arrayWithMillionZeros.every(value => value == 0);
 console.timeEnd('Every method time');

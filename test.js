@@ -6,6 +6,6 @@ console.timeEnd('Traditional for loop time: ');
 
 const arrayWithMillionZeros = Array(millionTimes).fill(0);
 
-console.time('For of time: ');
+console.time('For of loop time: ');
 for (let value of arrayWithMillionZeros) {}
-console.timeEnd('For of time: ');
+console.timeEnd('For of loop time: ');

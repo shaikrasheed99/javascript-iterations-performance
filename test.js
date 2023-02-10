@@ -27,3 +27,7 @@ console.timeEnd('For of loop time');
 console.time('For in loop time');
 for (let value in arrayWithMillionZeros) {}
 console.timeEnd('For in loop time');
+
+console.time('Map method time');
+arrayWithMillionZeros.map(() => {});
+console.timeEnd('Map method time');

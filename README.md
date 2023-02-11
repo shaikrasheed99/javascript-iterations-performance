@@ -1,4 +1,4 @@
-# Performance test of JavaSript iterations
+# Performance test of JavaScript iterations
 
 We have few techniques to iterate over the arrays, objects and strings. 
 
